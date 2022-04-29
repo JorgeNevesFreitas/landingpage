@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
+/*fazer reset*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*aqui definimos as caracteristicas gerais da página*/
+body {
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+      
+}
+
+h2, h3, p {
+    margin-bottom: 15px;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none; /*retira os pontos antes dos itens em lista*/
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto; /* para centrar*/
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#features {
+    margin: 0 auto;
+}
+
+#header {
+    display: flex;
+    background-color: #1F70C1;
+    color: white;
+    width: 100%;
+    position: fixed; /* fixa o header numa posição fixa */
+    top: 0; /* define a posição do header no topo da página */
+}
+
+#header-img {
+    max-height: 100px;
+}
+
+#features h2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+   
+
+}
+
+.features-title h2 {
+    text-align: center;
+    margin: 0 auto;
+  
+}
+
+.features-title h3 {
+    text-align: center;
+    background-color: #c1701f;
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: lighter;
+     
+}
+
+.features-title p {
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 12px;
+    font-style: bold;
+    
+     
+}
+
+
+#header a {
+    color: white; /*links branco*/
+    text-decoration: none; /*elimina a cor diferente para links usados*/
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#header a:hover {
+    color: #c1701f; /*muda a cor quando se passa o rato por cima do link*/
+}
+
+
+
+#header .container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+#header ul {
+    display: flex;
+
+}
+
+#header li {
+    margin: 20px; /*espacamento entre os links do cabeçalho*/
+
+}
+
+#features .container {
+    display: flex;
+    padding-top: 30px;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#features p {
+    max-width: 80%;
+    text-align: justify;
+    
+}
+
+#features i {
+    margin-right: 10px;
+}
+
+i:hover {
+    color: #c1701f;
+}
+
+#why-us .container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #c1701f;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    min-width: 100%;
+    }
+
+.box {
+    flex: 1;
+    background-color: #1F70C1;
+    border-radius: 10px;
+    margin: 70px 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 10px #6d7073;
+
+}
+
+#why-us i {
+    margin-right: 10px;
+}
+
+.box h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box p {
+     padding-top: 20px;
+}
+
+#video .container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#newsletter {
+    padding-top: 30px;
+    text-align: center;
+    align-items: center;
+    }
+   
+
+footer {
+    background-color: #6d7073;
+    padding-bottom: 30px;
+          
+  }
+
+
+#submit {
+    background-color: #1F70C1;
+    color: white;
+    font-size: 1rem;
+    padding: 5px 5px;
+}
+
+@media (max-width: 768px) {
+    ul {
+        flex-direction: column;
+        line-height: 0.1rem;
+      }
+    
+    #features .container {
+        display: block;
+        margin-top: 150px;
+        
+       
+    }
+    #why-us .container {
+        display: block;
+                 
+        
+    }
+
+   
+}
+
+
+
