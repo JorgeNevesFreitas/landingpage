@@ -74,7 +74,7 @@ ul {
     margin: 0 auto;
     font-size: 16px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: bold;
      
 }
 
@@ -186,6 +186,7 @@ i:hover {
     padding-top: 30px;
     text-align: center;
     align-items: center;
+    color: white;
     }
 
 #newsletter .container {
@@ -195,6 +196,10 @@ i:hover {
 
 #newsletter input {
     height: 30px
+}
+
+#newsletter p {
+    font-weight: bold;
 }
    
 
